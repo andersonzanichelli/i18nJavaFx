@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.zanichelli.i18n.MainController">
+   <center>
+      <Pane prefHeight="190.0" prefWidth="377.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="50.0" layoutY="51.0" text="%login.usuario" />
+            <Label layoutX="50.0" layoutY="102.0" text="%login.senha" />
+            <Button layoutX="227.0" layoutY="140.0" mnemonicParsing="false" text="%login.entrar" />
+            <PasswordField layoutX="151.0" layoutY="97.0" />
+            <TextField layoutX="151.0" layoutY="46.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
